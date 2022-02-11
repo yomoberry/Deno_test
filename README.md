@@ -1,3 +1,4 @@
-docker-compose build
 
-docker-compose up -d
+brew install deno
+
+deno run --allow-net server.js
